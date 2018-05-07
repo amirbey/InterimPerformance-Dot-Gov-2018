@@ -506,6 +506,11 @@ body {
   padding-left: 1.5rem;
 }
 
+.usa-grid-side {
+  background-color: #0071bc;
+  padding: 1rem;
+}
+
 @media screen and (min-width: 600px) {
   .usa-grid {
     padding-right: 3rem;

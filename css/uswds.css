@@ -541,6 +541,17 @@ body {
   .usa-width-one-half:last-child {
     margin-right: 0;
   }
+
+  .usa-width-one-half-dark {
+    float: left;
+    display: block;
+    margin-right: 4.82916%;
+    width: 47.58542%;
+    background: #112e51;
+  }
+  .usa-width-one-half-dark:last-child {
+    margin-right: 0;
+  }
   .usa-width-one-third {
     float: left;
     display: block;
@@ -3564,11 +3575,16 @@ input.usa-input-medium {
 
 .usa-hero-callout .usa-button {
   font-size: 1.4rem;
-  margin-top: 7rem;
+  margin-top: 1rem;
   width: 100%;
 }
 
 .usa-hero-callout-alt {
+  color: #ffffff;
+  display: block;
+}
+
+.usa-hero-callout-alt-gray {
   color: #ffffff;
   display: block;
 }
@@ -4421,10 +4437,43 @@ input.usa-input-medium {
   background-color: #f1f1f1;
 }
 
+.usa-section-gray {
+  background-color: #aeb0b5;
+}
+
 .usa-section-dark {
   background-color: #112e51;
   color: #ffffff;
 }
+
+.usa-section-CAP {
+  background-color: #e4e2e0;
+  color: #112e51;
+  border-top: 1.6rem solid #aeb0b5;
+}
+
+.usa-section-dark-border {
+  background-color: #112e51;
+  color: #ffffff;
+  border-top: 1.6rem solid #205493;
+
+}
+
+.usa-section-ltblue-border {
+  background-color: #205493;
+  color: #ffffff;
+  border-top: 1.6rem solid #205493;
+
+}
+
+.usa-section-dark-border-double {
+  background-color: #112e51;
+  color: #ffffff;
+  border-top: 1.6rem solid #205493;
+  border-bottom: 1.6rem solid #205493;
+}
+
+
 
 .usa-section-dark h1,
 .usa-section-dark h2,

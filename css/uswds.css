@@ -1078,6 +1078,20 @@ button.usa-button-outline,
   color: #0071bc;
 }
 
+.usa-button.usa-button-outline-red,
+.usa-button-primary.usa-button-outline-red,
+.usa-button:visited.usa-button-outline-red,
+.usa-button-primary:visited.usa-button-outline-red,
+button.usa-button-outline-red,
+[type=button].usa-button-outline-red,
+[type=submit].usa-button-outline-red,
+[type=reset].usa-button-outline-red,
+[type=image].usa-button-outline-red {
+  background-color: #ffffff;
+  box-shadow: inset 0 0 0 2px #0071bc;
+  color: #0071bc;
+}
+
 .usa-button.usa-button-outline:hover, .usa-button.usa-button-outline.usa-button-hover,
 .usa-button-primary.usa-button-outline:hover,
 .usa-button-primary.usa-button-outline.usa-button-hover,
